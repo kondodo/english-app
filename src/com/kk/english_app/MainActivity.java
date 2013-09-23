@@ -7,6 +7,8 @@ public class MainActivity extends Activity {
     /**
      * Called when the activity is first created.
      */
+    //わーーーい
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
