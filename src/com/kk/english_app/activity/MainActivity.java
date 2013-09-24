@@ -1,13 +1,12 @@
-package com.kk.english_app.android.activity;
+package com.kk.english_app.activity;
 
 import android.os.Bundle;
 import android.text.InputType;
-import android.text.SpannableStringBuilder;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import com.kk.english_app.R;
-import com.kk.english_app.android.helper.ToastHelper;
+import com.kk.english_app.helper.ToastHelper;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener{
 

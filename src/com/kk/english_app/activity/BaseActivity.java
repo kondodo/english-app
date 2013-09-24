@@ -1,4 +1,4 @@
-package com.kk.english_app.android.activity;
+package com.kk.english_app.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
