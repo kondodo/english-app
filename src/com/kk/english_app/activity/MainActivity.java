@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import com.kk.english_app.R;
 import com.kk.english_app.helper.ToastHelper;
+import com.kk.english_app.util.Constant;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener{
 
@@ -48,6 +49,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         String idText = mIdEditText.getText().toString();
         String passText = mPassEditText.getText().toString();
         String passAgainText = mPassAgainEditText.getText().toString();
+      //  Constant.a;
 
         if(idText != null && passText != null && passAgainText != null){
             if(!idText.equals("") && !passText.equals("") && !passAgainText.equals("")){
